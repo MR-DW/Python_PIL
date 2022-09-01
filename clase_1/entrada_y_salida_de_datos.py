@@ -14,3 +14,4 @@ print("Desde consola")
 # Entrada de datos. Usuario puede ingresar sus datos.
 
 input("ingrese un mensaje: ")
+# devuelve siempre un string.
