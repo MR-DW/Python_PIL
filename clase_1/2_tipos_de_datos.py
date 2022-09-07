@@ -33,6 +33,8 @@
 
 # str: secuencia de caracteres.
 # str() --> convierte dato a string.
+# si un string es multiplicado por un numero, 
+# el string se repetira tantas veces como lo indique el numero.
 a="Esto un string"
 
 c = str(120.50)
@@ -44,12 +46,25 @@ print(a[0:4])
 
 print (a[-5])
 
-# Metodos de strings
+# Metodos de strings. dentro de otra función, aceptan argumentos algunos. Var.metodo()
 print(a.lower())
 print(a.upper())
 # Devuelve un array de elementos conformado por cada palabra.
 print(a.split())
 print(len(a.split()))
+# len(string)
+# Devuelve la longitud del string.
+# capitalize() 
+# Devuelve la cadena con su primer letra en Mayuscula.
+# lower()
+# Convierte todos los caracteres a minuscula.
+# swapcase()
+# Convierte todos los caracteres en Mayuscula a minuscula y viceversa.
+# upper() 
+# Devuelve todos los caracteres en Mayuscula
+# count(<sub>[, <start>[, <end>]])
+# Cuenta las veces que otra cadena se encuentra dentro de la primera.
+
 
 # Listas almacena cualquier tipo de datos.
 lista_1=["Hola","5",5]
